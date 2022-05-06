@@ -12,6 +12,7 @@ struct MyTrakckerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(trackerViewModel())
         }
     }
 }
